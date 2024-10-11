@@ -1,0 +1,1365 @@
+{
+  "emojis": [
+    {
+      "name": "bulbasaur",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/1.png",
+      "value": 50,
+      "strength": 49,
+      "quantity": 30,
+      "introduction": "Bulbasaur là Pokémon loại Cỏ/Độc, nổi tiếng với khả năng phát triển nhanh chóng.",
+      "type": ["Grass", "Poison"]
+    },
+    {
+      "name": "ivysaur",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/2.png",
+      "value": 70,
+      "strength": 62,
+      "quantity": 20,
+      "introduction": "Ivysaur là dạng tiến hóa của Bulbasaur, nổi bật với sức mạnh tấn công và phòng thủ.",
+      "type": ["Grass", "Poison"]
+    },
+    {
+      "name": "venusaur",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/3.png",
+      "value": 100,
+      "strength": 82,
+      "quantity": 10,
+      "introduction": "Venusaur là dạng tiến hóa cuối cùng của Bulbasaur, nổi bật với sức mạnh tấn công mạnh mẽ.",
+      "type": ["Grass", "Poison"]
+    },
+    {
+      "name": "charmander",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/4.png",
+      "value": 50,
+      "strength": 52,
+      "quantity": 25,
+      "introduction": "Charmander là Pokémon loại Lửa, nổi tiếng với khả năng tấn công bằng lửa.",
+      "type": ["Fire"]
+    },
+    {
+      "name": "charmeleon",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/5.png",
+      "value": 70,
+      "strength": 64,
+      "quantity": 15,
+      "introduction": "Charmeleon là dạng tiến hóa của Charmander, nổi bật với sức mạnh tấn công cao.",
+      "type": ["Fire"]
+    },
+    {
+      "name": "charizard",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/6.png",
+      "value": 100,
+      "strength": 84,
+      "quantity": 5,
+      "introduction": "Charizard là dạng tiến hóa cuối cùng của Charmander, nổi bật với khả năng bay và sức mạnh tấn công.",
+      "type": ["Fire", "Flying"]
+    },
+    {
+      "name": "squirtle",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/7.png",
+      "value": 50,
+      "strength": 48,
+      "quantity": 20,
+      "introduction": "Squirtle là Pokémon loại Nước, nổi tiếng với khả năng phòng thủ tốt.",
+      "type": ["Water"]
+    },
+    {
+      "name": "wartortle",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/8.png",
+      "value": 70,
+      "strength": 63,
+      "quantity": 10,
+      "introduction": "Wartortle là dạng tiến hóa của Squirtle, nổi bật với sức mạnh tấn công và khả năng di chuyển.",
+      "type": ["Water"]
+    },
+    {
+      "name": "blastoise",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/9.png",
+      "value": 100,
+      "strength": 83,
+      "quantity": 5,
+      "introduction": "Blastoise là dạng tiến hóa cuối cùng của Squirtle, nổi bật với khả năng tấn công bằng nước.",
+      "type": ["Water"]
+    },
+    {
+      "name": "caterpie",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/10.png",
+      "value": 20,
+      "strength": 30,
+      "quantity": 50,
+      "introduction": "Caterpie là Pokémon loại Bug, nổi tiếng với khả năng tiến hóa nhanh.",
+      "type": ["Bug"]
+    },
+    {
+      "name": "metapod",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/11.png",
+      "value": 25,
+      "strength": 20,
+      "quantity": 40,
+      "introduction": "Metapod là dạng tiến hóa của Caterpie, nổi bật với khả năng phòng thủ cao.",
+      "type": ["Bug"]
+    },
+    {
+      "name": "butterfree",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/12.png",
+      "value": 50,
+      "strength": 60,
+      "quantity": 15,
+      "introduction": "Butterfree là dạng tiến hóa cuối cùng của Caterpie, nổi bật với khả năng tấn công bằng chiêu thức bướm.",
+      "type": ["Bug", "Flying"]
+    },
+    {
+      "name": "weedle",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/13.png",
+      "value": 20,
+      "strength": 40,
+      "quantity": 45,
+      "introduction": "Weedle là Pokémon loại Bug/Độc, nổi tiếng với khả năng tiến hóa nhanh.",
+      "type": ["Bug", "Poison"]
+    },
+    {
+      "name": "kakuna",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/14.png",
+      "value": 25,
+      "strength": 25,
+      "quantity": 30,
+      "introduction": "Kakuna là dạng tiến hóa của Weedle, nổi bật với khả năng phòng thủ cao.",
+      "type": ["Bug", "Poison"]
+    },
+    {
+      "name": "beedrill",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/15.png",
+      "value": 50,
+      "strength": 65,
+      "quantity": 20,
+      "introduction": "Beedrill là dạng tiến hóa cuối cùng của Weedle, nổi bật với khả năng tấn công bằng nọc độc.",
+      "type": ["Bug", "Poison"]
+    },
+    {
+      "name": "pidgey",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/16.png",
+      "value": 20,
+      "strength": 40,
+      "quantity": 50,
+      "introduction": "Pidgey là Pokémon loại Normal/Flying, nổi tiếng với khả năng bay cao.",
+      "type": ["Normal", "Flying"]
+    },
+    {
+      "name": "pidgeotto",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/17.png",
+      "value": 40,
+      "strength": 60,
+      "quantity": 20,
+      "introduction": "Pidgeotto là dạng tiến hóa của Pidgey, nổi bật với khả năng tấn công mạnh.",
+      "type": ["Normal", "Flying"]
+    },
+    {
+      "name": "pidgeot",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/18.png",
+      "value": 60,
+      "strength": 80,
+      "quantity": 10,
+      "introduction": "Pidgeot là dạng tiến hóa cuối cùng của Pidgey, nổi bật với tốc độ bay nhanh.",
+      "type": ["Normal", "Flying"]
+    },
+    {
+      "name": "rattata",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/19.png",
+      "value": 30,
+      "strength": 30,
+      "quantity": 55,
+      "introduction": "Rattata là Pokémon loại Normal, nổi tiếng với sự nhanh nhẹn và khả năng tấn công.",
+      "type": ["Normal"]
+    },
+    {
+      "name": "raticate",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/20.png",
+      "value": 50,
+      "strength": 55,
+      "quantity": 30,
+      "introduction": "Raticate là dạng tiến hóa của Rattata, nổi bật với sức mạnh tấn công.",
+      "type": ["Normal"]
+    },
+    {
+      "name": "spearow",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/21.png",
+      "value": 30,
+      "strength": 60,
+      "quantity": 45,
+      "introduction": "Spearow là Pokémon loại Normal/Flying, nổi tiếng với khả năng tấn công mạnh mẽ.",
+      "type": ["Normal", "Flying"]
+    },
+    {
+      "name": "fearow",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/22.png",
+      "value": 50,
+      "strength": 90,
+      "quantity": 20,
+      "introduction": "Fearow là dạng tiến hóa của Spearow, nổi bật với khả năng bay cao và tấn công mạnh.",
+      "type": ["Normal", "Flying"]
+    },
+
+    {
+      "name": "ekans",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/23.png",
+      "value": 35,
+      "strength": 40,
+      "quantity": 40,
+      "introduction": "Ekans là Pokémon loại Độc, nổi tiếng với khả năng di chuyển nhanh chóng và linh hoạt.",
+      "type": ["Poison"]
+    },
+    {
+      "name": "arbok",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/24.png",
+      "value": 60,
+      "strength": 65,
+      "quantity": 20,
+      "introduction": "Arbok là dạng tiến hóa của Ekans, nổi bật với sức mạnh tấn công và khả năng phòng thủ.",
+      "type": ["Poison"]
+    },
+    {
+      "name": "pikachu",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/25.png",
+      "value": 50,
+      "strength": 55,
+      "quantity": 35,
+      "introduction": "Pikachu là Pokémon loại Điện, nổi tiếng với khả năng tạo ra điện và tốc độ nhanh nhẹn.",
+      "type": ["Electric"]
+    },
+    {
+      "name": "raichu",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/26.png",
+      "value": 75,
+      "strength": 90,
+      "quantity": 15,
+      "introduction": "Raichu là dạng tiến hóa của Pikachu, nổi bật với khả năng tấn công điện mạnh mẽ.",
+      "type": ["Electric"]
+    },
+    {
+      "name": "sandshrew",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/27.png",
+      "value": 45,
+      "strength": 50,
+      "quantity": 40,
+      "introduction": "Sandshrew là Pokémon loại Đất, nổi tiếng với khả năng phòng thủ mạnh mẽ.",
+      "type": ["Ground"]
+    },
+    {
+      "name": "sandslash",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/28.png",
+      "value": 70,
+      "strength": 75,
+      "quantity": 20,
+      "introduction": "Sandslash là dạng tiến hóa của Sandshrew, nổi bật với khả năng tấn công và phòng thủ cân đối.",
+      "type": ["Ground"]
+    },
+    {
+      "name": "nidoran♀",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/29.png",
+      "value": 35,
+      "strength": 47,
+      "quantity": 40,
+      "introduction": "Nidoran♀ là Pokémon loại Độc, nổi tiếng với khả năng phòng thủ.",
+      "type": ["Poison"]
+    },
+    {
+      "name": "nidorina",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/30.png",
+      "value": 55,
+      "strength": 62,
+      "quantity": 20,
+      "introduction": "Nidorina là dạng tiến hóa của Nidoran♀, nổi bật với khả năng phòng thủ và tấn công cân bằng.",
+      "type": ["Poison"]
+    },
+    {
+      "name": "nidoqueen",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/31.png",
+      "value": 90,
+      "strength": 92,
+      "quantity": 10,
+      "introduction": "Nidoqueen là dạng tiến hóa cuối cùng của Nidoran♀, nổi bật với khả năng phòng thủ mạnh mẽ.",
+      "type": ["Poison", "Ground"]
+    },
+    {
+      "name": "nidoran♂",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/32.png",
+      "value": 35,
+      "strength": 57,
+      "quantity": 40,
+      "introduction": "Nidoran♂ là Pokémon loại Độc, nổi tiếng với khả năng tấn công nhanh nhẹn.",
+      "type": ["Poison"]
+    },
+    {
+      "name": "nidorino",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/33.png",
+      "value": 55,
+      "strength": 72,
+      "quantity": 20,
+      "introduction": "Nidorino là dạng tiến hóa của Nidoran♂, nổi bật với sức mạnh tấn công và tốc độ.",
+      "type": ["Poison"]
+    },
+    {
+      "name": "nidoking",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/34.png",
+      "value": 90,
+      "strength": 102,
+      "quantity": 10,
+      "introduction": "Nidoking là dạng tiến hóa cuối cùng của Nidoran♂, nổi bật với sức mạnh và tấn công mạnh mẽ.",
+      "type": ["Poison", "Ground"]
+    },
+    {
+      "name": "clefairy",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/35.png",
+      "value": 40,
+      "strength": 45,
+      "quantity": 30,
+      "introduction": "Clefairy là Pokémon loại Tiên, nổi tiếng với khả năng tạo ra phép thuật.",
+      "type": ["Fairy"]
+    },
+    {
+      "name": "clefable",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/36.png",
+      "value": 70,
+      "strength": 70,
+      "quantity": 15,
+      "introduction": "Clefable là dạng tiến hóa của Clefairy, nổi bật với khả năng phép thuật và phòng thủ cao.",
+      "type": ["Fairy"]
+    },
+    {
+      "name": "vulpix",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/37.png",
+      "value": 35,
+      "strength": 41,
+      "quantity": 40,
+      "introduction": "Vulpix là Pokémon loại Lửa, nổi tiếng với khả năng tạo ra lửa và di chuyển nhanh nhẹn.",
+      "type": ["Fire"]
+    },
+    {
+      "name": "ninetales",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/38.png",
+      "value": 60,
+      "strength": 76,
+      "quantity": 20,
+      "introduction": "Ninetales là dạng tiến hóa của Vulpix, nổi bật với sức mạnh phép thuật và khả năng tấn công mạnh mẽ.",
+      "type": ["Fire"]
+    },
+    {
+      "name": "jigglypuff",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/39.png",
+      "value": 30,
+      "strength": 45,
+      "quantity": 35,
+      "introduction": "Jigglypuff là Pokémon loại Tiên/Bình thường, nổi tiếng với khả năng hát ru ngủ.",
+      "type": ["Fairy", "Normal"]
+    },
+    {
+      "name": "wigglytuff",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/40.png",
+      "value": 60,
+      "strength": 70,
+      "quantity": 15,
+      "introduction": "Wigglytuff là dạng tiến hóa của Jigglypuff, nổi bật với khả năng phòng thủ và sức mạnh phép thuật.",
+      "type": ["Fairy", "Normal"]
+    },
+    {
+      "name": "zubat",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/41.png",
+      "value": 30,
+      "strength": 45,
+      "quantity": 50,
+      "introduction": "Zubat là Pokémon loại Độc/Bay, nổi tiếng với khả năng di chuyển nhanh chóng.",
+      "type": ["Poison", "Flying"]
+    },
+    {
+      "name": "golbat",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/42.png",
+      "value": 60,
+      "strength": 80,
+      "quantity": 20,
+      "introduction": "Golbat là dạng tiến hóa của Zubat, nổi bật với khả năng bay cao và tấn công mạnh mẽ.",
+      "type": ["Poison", "Flying"]
+    },
+    {
+      "name": "oddish",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/43.png",
+      "value": 30,
+      "strength": 50,
+      "quantity": 35,
+      "introduction": "Oddish là Pokémon loại Cỏ/Độc, nổi tiếng với khả năng hấp thụ năng lượng từ đất.",
+      "type": ["Grass", "Poison"]
+    },
+    {
+      "name": "gloom",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/44.png",
+      "value": 45,
+      "strength": 65,
+      "quantity": 20,
+      "introduction": "Gloom là dạng tiến hóa của Oddish, nổi bật với khả năng tấn công độc tố mạnh mẽ.",
+      "type": ["Grass", "Poison"]
+    },
+    {
+      "name": "vileplume",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/45.png",
+      "value": 70,
+      "strength": 90,
+      "quantity": 10,
+      "introduction": "Vileplume là dạng tiến hóa cuối cùng của Oddish, nổi bật với khả năng tấn công mạnh và độc tố nguy hiểm.",
+      "type": ["Grass", "Poison"]
+    },
+    {
+      "name": "paras",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/46.png",
+      "value": 35,
+      "strength": 45,
+      "quantity": 40,
+      "introduction": "Paras là Pokémon loại Côn trùng/Cỏ, nổi bật với khả năng ký sinh và phát triển mạnh trong rừng.",
+      "type": ["Bug", "Grass"]
+    },
+    {
+      "name": "parasect",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/47.png",
+      "value": 60,
+      "strength": 70,
+      "quantity": 20,
+      "introduction": "Parasect là dạng tiến hóa của Paras, nổi bật với khả năng điều khiển tâm trí và sức mạnh tấn công độc tố.",
+      "type": ["Bug", "Grass"]
+    },
+    {
+      "name": "venonat",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/48.png",
+      "value": 45,
+      "strength": 55,
+      "quantity": 40,
+      "introduction": "Venonat là Pokémon loại Côn trùng/Độc, nổi bật với khả năng gây độc và tấn công tầm xa.",
+      "type": ["Bug", "Poison"]
+    },
+    {
+      "name": "venomoth",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/49.png",
+      "value": 70,
+      "strength": 90,
+      "quantity": 20,
+      "introduction": "Venomoth là dạng tiến hóa của Venonat, nổi bật với tốc độ và sức mạnh tấn công phép thuật.",
+      "type": ["Bug", "Poison"]
+    },
+    {
+      "name": "diglett",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/50.png",
+      "value": 30,
+      "strength": 45,
+      "quantity": 50,
+      "introduction": "Diglett là Pokémon loại Đất, nổi tiếng với khả năng đào đất và di chuyển nhanh chóng dưới lòng đất.",
+      "type": ["Ground"]
+    },
+    {
+      "name": "dugtrio",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/51.png",
+      "value": 60,
+      "strength": 80,
+      "quantity": 20,
+      "introduction": "Dugtrio là dạng tiến hóa của Diglett, nổi bật với sức mạnh tấn công và tốc độ di chuyển dưới đất.",
+      "type": ["Ground"]
+    },
+    {
+      "name": "meowth",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/52.png",
+      "value": 40,
+      "strength": 45,
+      "quantity": 40,
+      "introduction": "Meowth là Pokémon loại Bình thường, nổi tiếng với khả năng thu thập tiền và linh hoạt.",
+      "type": ["Normal"]
+    },
+    {
+      "name": "persian",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/53.png",
+      "value": 65,
+      "strength": 70,
+      "quantity": 20,
+      "introduction": "Persian là dạng tiến hóa của Meowth, nổi bật với sự linh hoạt và tốc độ cao.",
+      "type": ["Normal"]
+    },
+    {
+      "name": "psyduck",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/54.png",
+      "value": 45,
+      "strength": 55,
+      "quantity": 40,
+      "introduction": "Psyduck là Pokémon loại Nước, nổi tiếng với khả năng gây rối loạn và tạo ra sóng tâm linh.",
+      "type": ["Water"]
+    },
+    {
+      "name": "golduck",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/55.png",
+      "value": 70,
+      "strength": 85,
+      "quantity": 20,
+      "introduction": "Golduck là dạng tiến hóa của Psyduck, nổi bật với sức mạnh tâm linh và tốc độ trong nước.",
+      "type": ["Water"]
+    },
+    {
+      "name": "mankey",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/56.png",
+      "value": 40,
+      "strength": 55,
+      "quantity": 40,
+      "introduction": "Mankey là Pokémon loại Giác đấu, nổi bật với sự nhanh nhẹn và khả năng tấn công mạnh mẽ.",
+      "type": ["Fighting"]
+    },
+    {
+      "name": "primeape",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/57.png",
+      "value": 65,
+      "strength": 85,
+      "quantity": 20,
+      "introduction": "Primeape là dạng tiến hóa của Mankey, nổi bật với cơn giận dữ và sức mạnh tấn công không kiềm chế.",
+      "type": ["Fighting"]
+    },
+    {
+      "name": "growlithe",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/58.png",
+      "value": 50,
+      "strength": 70,
+      "quantity": 30,
+      "introduction": "Growlithe là Pokémon loại Lửa, nổi tiếng với lòng trung thành và sức mạnh chiến đấu.",
+      "type": ["Fire"]
+    },
+    {
+      "name": "arcanine",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/59.png",
+      "value": 90,
+      "strength": 110,
+      "quantity": 15,
+      "introduction": "Arcanine là dạng tiến hóa của Growlithe, nổi bật với tốc độ và sức mạnh lửa vượt trội.",
+      "type": ["Fire"]
+    },
+    {
+      "name": "poliwag",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/60.png",
+      "value": 40,
+      "strength": 45,
+      "quantity": 40,
+      "introduction": "Poliwag là Pokémon loại Nước, nổi tiếng với khả năng di chuyển nhanh trong nước.",
+      "type": ["Water"]
+    },
+    {
+      "name": "poliwhirl",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/61.png",
+      "value": 65,
+      "strength": 70,
+      "quantity": 20,
+      "introduction": "Poliwhirl là dạng tiến hóa của Poliwag, nổi bật với khả năng chiến đấu dưới nước.",
+      "type": ["Water"]
+    },
+    {
+      "name": "poliwrath",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/62.png",
+      "value": 90,
+      "strength": 95,
+      "quantity": 10,
+      "introduction": "Poliwrath là dạng tiến hóa cuối cùng của Poliwag, nổi bật với sức mạnh và khả năng tấn công võ thuật.",
+      "type": ["Water", "Fighting"]
+    },
+    {
+      "name": "abra",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/63.png",
+      "value": 50,
+      "strength": 55,
+      "quantity": 40,
+      "introduction": "Abra là Pokémon loại Tâm linh, nổi tiếng với khả năng dịch chuyển tức thời.",
+      "type": ["Psychic"]
+    },
+    {
+      "name": "kadabra",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/64.png",
+      "value": 70,
+      "strength": 85,
+      "quantity": 20,
+      "introduction": "Kadabra là dạng tiến hóa của Abra, nổi bật với sức mạnh tâm linh và khả năng kiểm soát năng lượng.",
+      "type": ["Psychic"]
+    },
+    {
+      "name": "alakazam",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/65.png",
+      "value": 100,
+      "strength": 110,
+      "quantity": 10,
+      "introduction": "Alakazam là dạng tiến hóa cuối cùng của Abra, nổi bật với sức mạnh tâm linh và trí tuệ siêu phàm.",
+      "type": ["Psychic"]
+    },
+    {
+      "name": "machop",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/66.png",
+      "value": 40,
+      "strength": 60,
+      "quantity": 40,
+      "introduction": "Machop là Pokémon loại Giác đấu, nổi bật với sức mạnh vật lý và khả năng nâng đồ nặng.",
+      "type": ["Fighting"]
+    },
+    {
+      "name": "machoke",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/67.png",
+      "value": 60,
+      "strength": 85,
+      "quantity": 20,
+      "introduction": "Machoke là dạng tiến hóa của Machop, nổi bật với cơ bắp mạnh mẽ và khả năng chiến đấu đáng gờm.",
+      "type": ["Fighting"]
+    },
+    {
+      "name": "machamp",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/68.png",
+      "value": 90,
+      "strength": 110,
+      "quantity": 10,
+      "introduction": "Machamp là dạng tiến hóa cuối cùng của Machop, nổi bật với khả năng tấn công mạnh mẽ và tốc độ.",
+      "type": ["Fighting"]
+    },
+
+    {
+      "name": "bellsprout",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/69.png",
+      "value": 50,
+      "strength": 75,
+      "quantity": 30,
+      "introduction": "Bellsprout là Pokémon loại Cỏ/Độc, nổi bật với khả năng thu hút côn trùng và sức sống mạnh mẽ.",
+      "type": ["Grass", "Poison"]
+    },
+    {
+      "name": "weepinbell",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/70.png",
+      "value": 65,
+      "strength": 90,
+      "quantity": 20,
+      "introduction": "Weepinbell là dạng tiến hóa của Bellsprout, nổi bật với khả năng tấn công bằng độc tố.",
+      "type": ["Grass", "Poison"]
+    },
+    {
+      "name": "victreebel",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/71.png",
+      "value": 80,
+      "strength": 105,
+      "quantity": 15,
+      "introduction": "Victreebel là dạng tiến hóa cuối cùng của Bellsprout, nổi bật với sức mạnh tấn công và khả năng phát triển trong rừng.",
+      "type": ["Grass", "Poison"]
+    },
+    {
+      "name": "tentacool",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/72.png",
+      "value": 40,
+      "strength": 40,
+      "quantity": 50,
+      "introduction": "Tentacool là Pokémon loại Nước/Độc, nổi tiếng với khả năng tấn công bằng độc tố trong nước.",
+      "type": ["Water", "Poison"]
+    },
+    {
+      "name": "tentacruel",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/73.png",
+      "value": 80,
+      "strength": 70,
+      "quantity": 20,
+      "introduction": "Tentacruel là dạng tiến hóa của Tentacool, nổi bật với sức mạnh tấn công và khả năng di chuyển dưới nước.",
+      "type": ["Water", "Poison"]
+    },
+    {
+      "name": "geodude",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/74.png",
+      "value": 40,
+      "strength": 80,
+      "quantity": 40,
+      "introduction": "Geodude là Pokémon loại Đá/Đất, nổi tiếng với sức mạnh vật lý và khả năng chịu đựng.",
+      "type": ["Rock", "Ground"]
+    },
+    {
+      "name": "graveler",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/75.png",
+      "value": 70,
+      "strength": 95,
+      "quantity": 20,
+      "introduction": "Graveler là dạng tiến hóa của Geodude, nổi bật với sức mạnh tấn công và khả năng bảo vệ.",
+      "type": ["Rock", "Ground"]
+    },
+    {
+      "name": "golem",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/76.png",
+      "value": 100,
+      "strength": 120,
+      "quantity": 10,
+      "introduction": "Golem là dạng tiến hóa cuối cùng của Geodude, nổi bật với sức mạnh và khả năng chịu đựng tuyệt vời.",
+      "type": ["Rock", "Ground"]
+    },
+    {
+      "name": "ponyta",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/77.png",
+      "value": 50,
+      "strength": 65,
+      "quantity": 30,
+      "introduction": "Ponyta là Pokémon loại Lửa, nổi tiếng với tốc độ nhanh và khả năng nhảy cao.",
+      "type": ["Fire"]
+    },
+    {
+      "name": "rapidash",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/78.png",
+      "value": 80,
+      "strength": 100,
+      "quantity": 15,
+      "introduction": "Rapidash là dạng tiến hóa của Ponyta, nổi bật với tốc độ và sức mạnh lửa cực đại.",
+      "type": ["Fire"]
+    },
+    {
+      "name": "slowpoke",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/79.png",
+      "value": 50,
+      "strength": 65,
+      "quantity": 40,
+      "introduction": "Slowpoke là Pokémon loại Nước/Tâm linh, nổi tiếng với tính cách chậm chạp và khả năng kiểm soát nước.",
+      "type": ["Water", "Psychic"]
+    },
+    {
+      "name": "slowbro",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/80.png",
+      "value": 95,
+      "strength": 90,
+      "quantity": 15,
+      "introduction": "Slowbro là dạng tiến hóa của Slowpoke, nổi bật với sức mạnh tâm linh và khả năng chịu đựng.",
+      "type": ["Water", "Psychic"]
+    },
+    {
+      "name": "magnemite",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/81.png",
+      "value": 25,
+      "strength": 35,
+      "quantity": 50,
+      "introduction": "Magnemite là Pokémon loại Điện/Đồng, nổi tiếng với khả năng thu hút và kiểm soát từ trường.",
+      "type": ["Electric", "Steel"]
+    },
+    {
+      "name": "magneton",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/82.png",
+      "value": 50,
+      "strength": 70,
+      "quantity": 20,
+      "introduction": "Magneton là dạng tiến hóa của Magnemite, nổi bật với sức mạnh điện và khả năng tấn công từ xa.",
+      "type": ["Electric", "Steel"]
+    },
+    {
+      "name": "farfetch'd",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/83.png",
+      "value": 60,
+      "strength": 65,
+      "quantity": 30,
+      "introduction": "Farfetch'd là Pokémon loại Bình thường/Buồm, nổi tiếng với khả năng sử dụng cần câu và tấn công bằng mồ hôi.",
+      "type": ["Normal", "Flying"]
+    },
+    {
+      "name": "doduo",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/84.png",
+      "value": 40,
+      "strength": 60,
+      "quantity": 40,
+      "introduction": "Doduo là Pokémon loại Bay/Nhật, nổi tiếng với tốc độ và khả năng bay cao.",
+      "type": ["Normal", "Flying"]
+    },
+    {
+      "name": "dodrio",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/85.png",
+      "value": 60,
+      "strength": 85,
+      "quantity": 20,
+      "introduction": "Dodrio là dạng tiến hóa của Doduo, nổi bật với tốc độ và khả năng tấn công mạnh.",
+      "type": ["Normal", "Flying"]
+    },
+    {
+      "name": "seel",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/86.png",
+      "value": 65,
+      "strength": 55,
+      "quantity": 30,
+      "introduction": "Seel là Pokémon loại Nước, nổi tiếng với khả năng di chuyển nhanh trong nước và sức mạnh chịu đựng.",
+      "type": ["Water"]
+    },
+    {
+      "name": "dewgong",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/87.png",
+      "value": 90,
+      "strength": 70,
+      "quantity": 15,
+      "introduction": "Dewgong là dạng tiến hóa của Seel, nổi bật với sức mạnh tấn công và khả năng chịu đựng trong nước lạnh.",
+      "type": ["Water", "Ice"]
+    },
+    {
+      "name": "grimer",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/88.png",
+      "value": 80,
+      "strength": 80,
+      "quantity": 30,
+      "introduction": "Grimer là Pokémon loại Độc, nổi tiếng với khả năng sống trong môi trường ô nhiễm.",
+      "type": ["Poison"]
+    },
+    {
+      "name": "muk",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/89.png",
+      "value": 105,
+      "strength": 105,
+      "quantity": 10,
+      "introduction": "Muk là dạng tiến hóa của Grimer, nổi bật với sức mạnh và khả năng sinh sản nhanh.",
+      "type": ["Poison"]
+    },
+    {
+      "name": "shellder",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/90.png",
+      "value": 40,
+      "strength": 50,
+      "quantity": 50,
+      "introduction": "Shellder là Pokémon loại Nước, nổi tiếng với khả năng bám vào đá và sống trong môi trường biển.",
+      "type": ["Water"]
+    },
+    {
+      "name": "cloyster",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/91.png",
+      "value": 85,
+      "strength": 95,
+      "quantity": 15,
+      "introduction": "Cloyster là dạng tiến hóa của Shellder, nổi bật với sức mạnh tấn công và khả năng bảo vệ.",
+      "type": ["Water", "Ice"]
+    },
+    {
+      "name": "gastly",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/92.png",
+      "value": 30,
+      "strength": 35,
+      "quantity": 50,
+      "introduction": "Gastly là Pokémon loại Ma, nổi tiếng với khả năng tấn công từ xa và khiến đối thủ khiếp sợ.",
+      "type": ["Ghost", "Poison"]
+    },
+    {
+      "name": "haunter",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/93.png",
+      "value": 45,
+      "strength": 50,
+      "quantity": 20,
+      "introduction": "Haunter là dạng tiến hóa của Gastly, nổi bật với sức mạnh tâm linh và khả năng tấn công đáng gờm.",
+      "type": ["Ghost", "Poison"]
+    },
+    {
+      "name": "gengar",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/94.png",
+      "value": 95,
+      "strength": 130,
+      "quantity": 10,
+      "introduction": "Gengar là dạng tiến hóa cuối cùng của Gastly, nổi bật với sức mạnh và khả năng tấn công mạnh mẽ.",
+      "type": ["Ghost", "Poison"]
+    },
+    {
+      "name": "onix",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/95.png",
+      "value": 35,
+      "strength": 45,
+      "quantity": 30,
+      "introduction": "Onix là Pokémon loại Đá/Đất, nổi tiếng với khả năng di chuyển nhanh và sức mạnh vật lý.",
+      "type": ["Rock", "Ground"]
+    },
+    {
+      "name": "drowzee",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/96.png",
+      "value": 60,
+      "strength": 48,
+      "quantity": 40,
+      "introduction": "Drowzee là Pokémon loại Tâm linh, nổi tiếng với khả năng gây ngủ và kiểm soát tâm trí.",
+      "type": ["Psychic"]
+    },
+    {
+      "name": "hypno",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/97.png",
+      "value": 75,
+      "strength": 73,
+      "quantity": 20,
+      "introduction": "Hypno là dạng tiến hóa của Drowzee, nổi bật với sức mạnh tâm linh và khả năng gây mê.",
+      "type": ["Psychic"]
+    },
+    {
+      "name": "krabby",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/98.png",
+      "value": 30,
+      "strength": 55,
+      "quantity": 50,
+      "introduction": "Krabby là Pokémon loại Nước, nổi tiếng với khả năng di chuyển nhanh và sức mạnh vật lý.",
+      "type": ["Water"]
+    },
+    {
+      "name": "kingler",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/99.png",
+      "value": 65,
+      "strength": 95,
+      "quantity": 10,
+      "introduction": "Kingler là dạng tiến hóa của Krabby, nổi bật với sức mạnh tấn công và khả năng kiểm soát nước.",
+      "type": ["Water"]
+    },
+    {
+      "name": "voltorb",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/100.png",
+      "value": 40,
+      "strength": 50,
+      "quantity": 30,
+      "introduction": "Voltorb là Pokémon loại Điện, nổi tiếng với khả năng phát nổ và sức mạnh điện.",
+      "type": ["Electric"]
+    },
+    {
+      "name": "electrode",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/101.png",
+      "value": 60,
+      "strength": 70,
+      "quantity": 15,
+      "introduction": "Electrode là dạng tiến hóa của Voltorb, nổi bật với sức mạnh điện và khả năng phát nổ.",
+      "type": ["Electric"]
+    },
+    {
+      "name": "exeggcute",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/102.png",
+      "value": 60,
+      "strength": 40,
+      "quantity": 30,
+      "introduction": "Exeggcute là Pokémon loại Cỏ/Psy, nổi tiếng với khả năng sinh sản và sức mạnh tấn công độc đáo.",
+      "type": ["Grass", "Psychic"]
+    },
+    {
+      "name": "exeggutor",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/103.png",
+      "value": 95,
+      "strength": 130,
+      "quantity": 10,
+      "introduction": "Exeggutor là dạng tiến hóa của Exeggcute, nổi bật với sức mạnh tâm linh và khả năng tấn công mạnh.",
+      "type": ["Grass", "Psychic"]
+    },
+    {
+      "name": "cubone",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/104.png",
+      "value": 50,
+      "strength": 50,
+      "quantity": 30,
+      "introduction": "Cubone là Pokémon loại Đất, nổi tiếng với khả năng chịu đựng và sức mạnh vật lý.",
+      "type": ["Ground"]
+    },
+    {
+      "name": "marowak",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/105.png",
+      "value": 70,
+      "strength": 80,
+      "quantity": 15,
+      "introduction": "Marowak là dạng tiến hóa của Cubone, nổi bật với sức mạnh và khả năng chịu đựng mạnh mẽ.",
+      "type": ["Ground"]
+    },
+    {
+      "name": "hitmonlee",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/106.png",
+      "value": 65,
+      "strength": 120,
+      "quantity": 10,
+      "introduction": "Hitmonlee là Pokémon loại Giác đấu, nổi bật với khả năng tấn công và tốc độ cao.",
+      "type": ["Fighting"]
+    },
+    {
+      "name": "hitmonchan",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/107.png",
+      "value": 65,
+      "strength": 110,
+      "quantity": 10,
+      "introduction": "Hitmonchan là Pokémon loại Giác đấu, nổi bật với khả năng tấn công mạnh mẽ bằng đấm.",
+      "type": ["Fighting"]
+    },
+    {
+      "name": "lickitung",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/108.png",
+      "value": 60,
+      "strength": 70,
+      "quantity": 20,
+      "introduction": "Lickitung là Pokémon loại Bình thường, nổi tiếng với khả năng tấn công bằng lưỡi.",
+      "type": ["Normal"]
+    },
+    {
+      "name": "koffing",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/109.png",
+      "value": 40,
+      "strength": 65,
+      "quantity": 30,
+      "introduction": "Koffing là Pokémon loại Độc, nổi tiếng với khả năng gây độc và tấn công mạnh.",
+      "type": ["Poison"]
+    },
+    {
+      "name": "weezing",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/110.png",
+      "value": 60,
+      "strength": 80,
+      "quantity": 15,
+      "introduction": "Weezing là dạng tiến hóa của Koffing, nổi bật với khả năng phòng thủ cao và sức mạnh tấn công.",
+      "type": ["Poison"]
+    },
+    {
+      "name": "rhyhorn",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/111.png",
+      "value": 45,
+      "strength": 80,
+      "quantity": 30,
+      "introduction": "Rhyhorn là Pokémon loại Đất/Rock, nổi tiếng với sức mạnh vật lý và khả năng di chuyển nhanh.",
+      "type": ["Ground", "Rock"]
+    },
+    {
+      "name": "rhydon",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/112.png",
+      "value": 70,
+      "strength": 105,
+      "quantity": 10,
+      "introduction": "Rhydon là dạng tiến hóa của Rhyhorn, nổi bật với sức mạnh và khả năng tấn công mạnh mẽ.",
+      "type": ["Ground", "Rock"]
+    },
+    {
+      "name": "chansey",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/113.png",
+      "value": 250,
+      "strength": 250,
+      "quantity": 5,
+      "introduction": "Chansey là Pokémon loại Bình thường, nổi tiếng với khả năng hồi phục và hỗ trợ đồng đội.",
+      "type": ["Normal"]
+    },
+    {
+      "name": "tangela",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/114.png",
+      "value": 70,
+      "strength": 55,
+      "quantity": 20,
+      "introduction": "Tangela là Pokémon loại Cỏ, nổi tiếng với khả năng tấn công và phòng thủ tốt.",
+      "type": ["Grass"]
+    },
+    {
+      "name": "kangaskhan",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/115.png",
+      "value": 120,
+      "strength": 105,
+      "quantity": 10,
+      "introduction": "Kangaskhan là Pokémon loại Bình thường, nổi bật với khả năng bảo vệ con non.",
+      "type": ["Normal"]
+    },
+    {
+      "name": "horsea",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/116.png",
+      "value": 30,
+      "strength": 40,
+      "quantity": 50,
+      "introduction": "Horsea là Pokémon loại Nước, nổi tiếng với khả năng di chuyển nhanh và sức mạnh yếu.",
+      "type": ["Water"]
+    },
+    {
+      "name": "seadra",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/117.png",
+      "value": 55,
+      "strength": 65,
+      "quantity": 20,
+      "introduction": "Seadra là dạng tiến hóa của Horsea, nổi bật với sức mạnh tấn công và khả năng kiểm soát nước.",
+      "type": ["Water"]
+    },
+    {
+      "name": "goldeen",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/118.png",
+      "value": 30,
+      "strength": 40,
+      "quantity": 50,
+      "introduction": "Goldeen là Pokémon loại Nước, nổi tiếng với khả năng bơi lội và tốc độ cao.",
+      "type": ["Water"]
+    },
+    {
+      "name": "seaking",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/119.png",
+      "value": 80,
+      "strength": 65,
+      "quantity": 10,
+      "introduction": "Seaking là dạng tiến hóa của Goldeen, nổi bật với sức mạnh và tốc độ.",
+      "type": ["Water"]
+    },
+    {
+      "name": "staryu",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/120.png",
+      "value": 50,
+      "strength": 45,
+      "quantity": 30,
+      "introduction": "Staryu là Pokémon loại Nước, nổi tiếng với khả năng bơi lội nhanh và sức mạnh vật lý.",
+      "type": ["Water"]
+    },
+    {
+      "name": "starmie",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/121.png",
+      "value": 100,
+      "strength": 100,
+      "quantity": 10,
+      "introduction": "Starmie là dạng tiến hóa của Staryu, nổi bật với sức mạnh tấn công và khả năng bảo vệ tốt.",
+      "type": ["Water", "Psychic"]
+    },
+    {
+      "name": "mr.mime",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/122.png",
+      "value": 100,
+      "strength": 45,
+      "quantity": 5,
+      "introduction": "Mr. Mime là Pokémon loại Tâm linh, nổi tiếng với khả năng phòng thủ và tấn công tâm linh.",
+      "type": ["Psychic", "Fairy"]
+    },
+    {
+      "name": "scyther",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/123.png",
+      "value": 90,
+      "strength": 110,
+      "quantity": 10,
+      "introduction": "Scyther là Pokémon loại Côn trùng, nổi bật với tốc độ và sức mạnh tấn công.",
+      "type": ["Bug", "Flying"]
+    },
+    {
+      "name": "jynx",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/124.png",
+      "value": 70,
+      "strength": 75,
+      "quantity": 20,
+      "introduction": "Jynx là Pokémon loại Băng/Psy, nổi tiếng với khả năng tấn công từ xa và gây choáng.",
+      "type": ["Ice", "Psychic"]
+    },
+    {
+      "name": "electabuzz",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/125.png",
+      "value": 65,
+      "strength": 95,
+      "quantity": 10,
+      "introduction": "Electabuzz là Pokémon loại Điện, nổi tiếng với sức mạnh tấn công điện.",
+      "type": ["Electric"]
+    },
+    {
+      "name": "magmar",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/126.png",
+      "value": 65,
+      "strength": 95,
+      "quantity": 10,
+      "introduction": "Magmar là Pokémon loại Lửa, nổi tiếng với khả năng tấn công lửa mạnh mẽ.",
+      "type": ["Fire"]
+    },
+    {
+      "name": "pinsir",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/127.png",
+      "value": 70,
+      "strength": 125,
+      "quantity": 10,
+      "introduction": "Pinsir là Pokémon loại Côn trùng, nổi bật với sức mạnh và khả năng tấn công mạnh.",
+      "type": ["Bug"]
+    },
+    {
+      "name": "tauros",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/128.png",
+      "value": 70,
+      "strength": 100,
+      "quantity": 10,
+      "introduction": "Tauros là Pokémon loại Bình thường, nổi tiếng với sức mạnh vật lý và tốc độ cao.",
+      "type": ["Normal"]
+    },
+    {
+      "name": "magikarp",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/129.png",
+      "value": 10,
+      "strength": 10,
+      "quantity": 100,
+      "introduction": "Magikarp là Pokémon yếu nhất, nhưng có thể tiến hóa thành Gyarados mạnh mẽ.",
+      "type": ["Water"]
+    },
+    {
+      "name": "gyarados",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/130.png",
+      "value": 300,
+      "strength": 125,
+      "quantity": 5,
+      "introduction": "Gyarados là dạng tiến hóa của Magikarp, nổi bật với sức mạnh và khả năng tấn công mạnh mẽ.",
+      "type": ["Water", "Flying"]
+    },
+    {
+      "name": "lapras",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/131.png",
+      "value": 220,
+      "strength": 130,
+      "quantity": 3,
+      "introduction": "Lapras là Pokémon loại Nước/Băng, nổi tiếng với khả năng di chuyển trên mặt nước.",
+      "type": ["Water", "Ice"]
+    },
+    {
+      "name": "ditto",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/132.png",
+      "value": 95,
+      "strength": 48,
+      "quantity": 15,
+      "introduction": "Ditto có khả năng biến hình thành Pokémon khác, nổi bật với khả năng linh hoạt.",
+      "type": ["Normal"]
+    },
+    {
+      "name": "eevee",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/133.png",
+      "value": 80,
+      "strength": 55,
+      "quantity": 10,
+      "introduction": "Eevee là Pokémon rất linh hoạt với nhiều dạng tiến hóa khác nhau.",
+      "type": ["Normal"]
+    },
+    {
+      "name": "vaporeon",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/134.png",
+      "value": 200,
+      "strength": 130,
+      "quantity": 5,
+      "introduction": "Vaporeon là dạng tiến hóa của Eevee, nổi bật với khả năng kiểm soát nước.",
+      "type": ["Water"]
+    },
+    {
+      "name": "jolteon",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/135.png",
+      "value": 160,
+      "strength": 110,
+      "quantity": 5,
+      "introduction": "Jolteon là dạng tiến hóa của Eevee, nổi bật với tốc độ và sức mạnh tấn công điện.",
+      "type": ["Electric"]
+    },
+    {
+      "name": "flareon",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/136.png",
+      "value": 160,
+      "strength": 110,
+      "quantity": 5,
+      "introduction": "Flareon là dạng tiến hóa của Eevee, nổi bật với khả năng tấn công lửa mạnh.",
+      "type": ["Fire"]
+    },
+    {
+      "name": "porygon",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/137.png",
+      "value": 65,
+      "strength": 60,
+      "quantity": 10,
+      "introduction": "Porygon là Pokémon loại Bình thường, nổi bật với khả năng chuyển đổi và phân tích dữ liệu.",
+      "type": ["Normal"]
+    },
+    {
+      "name": "omanyte",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/138.png",
+      "value": 50,
+      "strength": 40,
+      "quantity": 20,
+      "introduction": "Omanyte là Pokémon loại Nước/Rock, nổi bật với khả năng tấn công và phòng thủ tốt.",
+      "type": ["Water", "Rock"]
+    },
+    {
+      "name": "omastar",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/139.png",
+      "value": 100,
+      "strength": 60,
+      "quantity": 10,
+      "introduction": "Omastar là dạng tiến hóa của Omanyte, nổi bật với khả năng tấn công và phòng thủ tốt.",
+      "type": ["Water", "Rock"]
+    },
+    {
+      "name": "kabuto",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/140.png",
+      "value": 60,
+      "strength": 40,
+      "quantity": 20,
+      "introduction": "Kabuto là Pokémon loại Nước/Rock, nổi bật với khả năng di chuyển nhanh.",
+      "type": ["Water", "Rock"]
+    },
+    {
+      "name": "kabutops",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/141.png",
+      "value": 100,
+      "strength": 90,
+      "quantity": 10,
+      "introduction": "Kabutops là dạng tiến hóa của Kabuto, nổi bật với sức mạnh và khả năng tấn công mạnh.",
+      "type": ["Water", "Rock"]
+    },
+    {
+      "name": "aerodactyl",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/142.png",
+      "value": 300,
+      "strength": 105,
+      "quantity": 5,
+      "introduction": "Aerodactyl là Pokémon loại Rock/Flying, nổi bật với tốc độ và sức mạnh tấn công.",
+      "type": ["Rock", "Flying"]
+    },
+    {
+      "name": "snorlax",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/143.png",
+      "value": 350,
+      "strength": 110,
+      "quantity": 5,
+      "introduction": "Snorlax là Pokémon loại Bình thường, nổi tiếng với sức mạnh và khả năng phòng thủ tốt.",
+      "type": ["Normal"]
+    },
+    {
+      "name": "articuno",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/144.png",
+      "value": 500,
+      "strength": 110,
+      "quantity": 1,
+      "introduction": "Articuno là Pokémon huyền thoại loại Băng/Bay, nổi tiếng với vẻ đẹp và sức mạnh của nó.",
+      "type": ["Ice", "Flying"]
+    },
+    {
+      "name": "zapdos",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/145.png",
+      "value": 500,
+      "strength": 110,
+      "quantity": 1,
+      "introduction": "Zapdos là Pokémon huyền thoại loại Điện/Bay, nổi tiếng với sức mạnh tấn công của nó.",
+      "type": ["Electric", "Flying"]
+    },
+    {
+      "name": "moltres",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/146.png",
+      "value": 500,
+      "strength": 110,
+      "quantity": 1,
+      "introduction": "Moltres là Pokémon huyền thoại loại Lửa/Bay, nổi tiếng với khả năng tấn công lửa mạnh.",
+      "type": ["Fire", "Flying"]
+    },
+    {
+      "name": "dratini",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/147.png",
+      "value": 40,
+      "strength": 40,
+      "quantity": 30,
+      "introduction": "Dratini là Pokémon loại Rồng, nổi tiếng với vẻ đẹp và sức mạnh tiềm ẩn.",
+      "type": ["Dragon"]
+    },
+    {
+      "name": "dragonair",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/148.png",
+      "value": 90,
+      "strength": 60,
+      "quantity": 10,
+      "introduction": "Dragonair là dạng tiến hóa của Dratini, nổi bật với sức mạnh và vẻ đẹp.",
+      "type": ["Dragon"]
+    },
+    {
+      "name": "dragonite",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/149.png",
+      "value": 400,
+      "strength": 134,
+      "quantity": 1,
+      "introduction": "Dragonite là dạng tiến hóa của Dragonair, nổi bật với sức mạnh và khả năng tấn công mạnh mẽ.",
+      "type": ["Dragon", "Flying"]
+    },
+    {
+      "name": "mewtwo",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/150.png",
+      "value": 700,
+      "strength": 130,
+      "quantity": 1,
+      "introduction": "Mewtwo là Pokémon huyền thoại nổi tiếng với sức mạnh tâm linh và khả năng tấn công mạnh.",
+      "type": ["Psychic"]
+    },
+    {
+      "name": "mew",
+      "src": "https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/151.png",
+      "value": 700,
+      "strength": 100,
+      "quantity": 1,
+      "introduction": "Mew là Pokémon huyền thoại, nổi tiếng với khả năng học tất cả các đòn tấn công.",
+      "type": ["Psychic"]
+    }
+  ]
+}

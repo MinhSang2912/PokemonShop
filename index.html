@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop Pokemon</title>
+    <link rel="stylesheet" href="./assets/reset.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="stylesheet" href="./assets/themify-icons/themify-icons.css" />
+    <link rel="icon" type="image/png" href="./assets/Img/Logo_Web.png" />
+  </head>
+  <body>
+    <div id="header">
+      <div id="header-left">
+        <img src="./assets/Img/Logo_Web.png" id="header_logo" class="mg-r" />
+        <img
+          src="./assets/Img/Logo_pokemon.png"
+          id="header_logo_pokemon"
+          class="mg-r"
+        />
+      </div>
+      <div id="header-right">
+        <div id="Home" class="mg-l menu-header hdhover">HOME</div>
+        <div id="Shop" class="mg-l menu-header hdhover">Shop</div>
+        <div id="Order" class="mg-l menu-header hdhover">Your Orders</div>
+      </div>
+    </div>
+    <div id="pokemon">POKEMON</div>
+
+    <div id="HomeSection" class="setup active">
+      <div class="slider-section">
+        <div class="video-container">
+          <video class="myVideo" autoplay loop muted>
+            <source src="./assets/Video/BackGround.mp4" type="video/mp4" />
+          </video>
+          <h1>Welcome to the shop</h1>
+        </div>
+      </div>
+    </div>
+
+    <div id="ShopSection" class="setup">
+      <div id="card">
+        <div class="card-size" id="card-cmt"></div>
+        <!-- <div class="card-size" id="card-center">
+          <img src="./assets/Img/card-img-2.png" alt="" />
+        </div>
+        <div class="card-size" id="Card-Img">
+          <img src="./assets/Img/card-img-1.png" alt="" />
+        </div> -->
+      </div>
+      <div id="Shopping">
+        <div id="Shopping-category">
+          <div class="category">Giá <i class="ti-angle-down"></i></div>
+          <div class="category">
+            Danh Mục Sản Phẩm <i class="ti-angle-down"></i>
+          </div>
+          <div class="category">Hệ <i class="ti-angle-down"></i></div>
+          <div class="category">Sắp Xếp <i class="ti-angle-down"></i></div>
+        </div>
+        <section id="Shopping-Card"></section>
+        <div id="pagination">
+          <button id="prevBtn">Previous</button>
+          <span id="pageNumber">Page 1</span>
+          <button id="nextBtn">Next</button>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="footer-left">
+          <h2>Contact:</h2>
+          <p>Quyen221A290094@st.vhu.edu.vn</p>
+          <p>Sang221A290069@st.vhu.edu.vn</p>
+          <p>Thai221A290066@st.vhu.edu.vn</p>
+        </div>
+      </div>
+    </div>
+    <div id="modal-shop">
+      <div class="modal-container">
+        <div id="modal-left"></div>
+        <div id="modal-right"></div>
+      </div>
+    </div>
+
+    <div id="OrderSection" class="setup">
+      <div id="Order-Container">
+        <div id="Order-left">
+          <p id="CartShop" class="Click bgCl">Shopping Cart</p>
+          <p id="MyOrder" class="Click">My Oder</p>
+        </div>
+        <div id="Order-Right">
+          <p>Buy all</p>
+        </div>
+        <div id="CartShopSection" class="Cart activeShop"></div>
+        <div id="MyOrderSection" class="Cart">
+          <input type="text" placeholder="Nhập Mã Đơn hàng" />
+          <input type="submit" value="Xác Nhận" />
+        </div>
+      </div>
+    </div>
+    <div id="modal-Order">
+      <div id="modal-order-container">
+        <i class="ti-close"></i>
+        <div id="modal-order-left">
+          <h2>Hoàn Tất Mua Hàng</h2>
+          <img src="./assets/Img/Logo.png" class="logo" alt="" />
+        </div>
+        <div id="modal-order-center">
+          <input type="text" placeholder="Họ Và Tên" required />
+          <input type="tel" placeholder="Số Điện Thoại" required />
+          <input type="email" placeholder="Gmail" required />
+          <input type="text" placeholder="Địa Chỉ" required />
+          <a><input type="checkbox" />Chấp nhận điều khoản mua hàng</a>
+          <input type="submit" value="Xác Nhận" />
+        </div>
+        <div id="modal-order-right">
+          <h3>Phương thức thanh toán</h3>
+
+          <p><img src="./assets/Img/Bank.png" alt="" />Tài khoản ngân hàng</p>
+          <p><img src="./assets/Img/momo.png" alt="" />Thanh Toán bằng MoMo</p>
+          <p><i class="ti-money"></i>Thanh Toán khi nhận được hàng</p>
+          <p>
+            <img src="./assets/Img/paypal.png" alt="" />Thanh Toán bằng PayPal
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./assets/main.js"></script>
+</html>
